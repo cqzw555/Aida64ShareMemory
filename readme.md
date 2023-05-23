@@ -9,7 +9,7 @@
 
 # 用法
 - 将这个Aida64ShareMemory.vcxproj添加到TrafficMonitorPlugins的解决方案里面编译,自行修改
-- 直接在TrafficMonitor的plugins中添加realse的dll文件，只能监测功耗
+- 直接在TrafficMonitor的plugins中添加[release](https://github.com/cqzw555/Aida64ShareMemory/releases)文件，只能监测功耗
 
 # 注意事项
 - AIDA64版本：测试使用的版本是6.88.6400，可以检测功耗，

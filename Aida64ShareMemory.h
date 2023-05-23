@@ -31,7 +31,7 @@ private:
     // 如需增加，在这里修改
     // 共享内存中的名字，{显示标签，单位}
     std::map<std::wstring, Aida64Type> types = {
-        {L"CPU",{L"CPU功率",L"W"}},
+        {L"GPU",{L"GPU功率",L"W"}},
         {L"CPU Package",{L"CPU功率",L"W"}},
         {L"CPU GT Cores",{L"核显功率",L"W"}},
         {L"CPU IA Cores",{L"CPU核心功率",L"W"}},

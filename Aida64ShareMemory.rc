@@ -13,7 +13,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// 中文(简体，中国) resources
+// ����(���壬�й�) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
@@ -52,11 +52,11 @@ END
 
 IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 194, 135
 STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "设置"
-FONT 9, "微软雅黑", 400, 0, 0x0
+CAPTION "����"
+FONT 9, "΢���ź�", 400, 0, 0x0
 BEGIN
-    DEFPUSHBUTTON   "确定",IDOK,80,114,50,14
-    PUSHBUTTON      "取消",IDCANCEL,137,114,50,14
+    DEFPUSHBUTTON   "ȷ��",IDOK,80,114,50,14
+    PUSHBUTTON      "ȡ��",IDCANCEL,137,114,50,14
 END
 
 
@@ -147,17 +147,17 @@ END
 
 STRINGTABLE
 BEGIN
-    IDS_PLUGIN_NAME         "监测功耗"
-    IDS_PLUGIN_DESCRIPTION  "使用aida64的共享内存功能监测cpu和显卡的功耗，理论上可以监测所有Aida64可以检测的所有信息"
+    IDS_PLUGIN_NAME         "��⹦��"
+    IDS_PLUGIN_DESCRIPTION  "ʹ��aida64�Ĺ����ڴ湦�ܼ��cpu���Կ��Ĺ��ģ������Ͽ��Լ������Aida64���Լ���������Ϣ"
     IDS_PLUGIN_ITEM_NAME    "powserUsage"
 END
 
-#endif    // 中文(简体，中国) resources
+#endif    // ����(���壬�й�) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// 英语(美国) resources
+// Ӣ��(����) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
@@ -220,7 +220,7 @@ BEGIN
     IDS_PLUGIN_ITEM_NAME    "powserUsage"
 END
 
-#endif    // 英语(美国) resources
+#endif    // Ӣ��(����) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

@@ -91,7 +91,7 @@ void CAida64ShareMemory::DataRequired()
             tmp += types[p.first].label + L":" + val + L"\n";
         }
     }
-    m_tooltip_info = tmp;
+    m_tooltip_info = tmp.substr(0,tmp.size()-1);
     return;
 }
 

@@ -28,15 +28,14 @@ private:
     std::map<std::wstring, size_t> idx;
     std::wstring m_tooltip_info;
     char* buffer = nullptr;
+    // 如需增加，在这里修改
+    // 共享内存中的名字，{显示标签，单位}
     std::map<std::wstring, Aida64Type> types = {
-        {L"GPU",{L"GPU温度",L"℃"}},
         {L"CPU",{L"CPU功率",L"W"}},
         {L"CPU Package",{L"CPU功率",L"W"}},
         {L"CPU GT Cores",{L"核显功率",L"W"}},
         {L"CPU IA Cores",{L"CPU核心功率",L"W"}},
         {L"GPU TDP%",{L"GPU TDP%",L"%"}},
-        {L"Motherboard",{L"主板温度",L"℃"}},
-        {L"GPU Hotspot",{L"GPU热点",L"℃"} }
     };
 };
 

@@ -1,3 +1,5 @@
+# Aida64ShareMemory
+
 这是一个供TrafficMonitor使用的插件。
 
 用aida64共享内存功能，监测显卡和CPU的功耗，理论上只要Aida64支持的参数，都可以检测。

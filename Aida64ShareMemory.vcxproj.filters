@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Aida64Item.cpp">
+      <Filter>Aida6Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Aida64ShareMemory.cpp">
+      <Filter>Aida64ShareMemory</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsDlg.cpp">
+      <Filter>对话框</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aida64Item.h">
+      <Filter>Aida6Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Aida64ShareMemory.h">
+      <Filter>Aida64ShareMemory</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsDlg.h">
+      <Filter>对话框</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Aida6Item">
+      <UniqueIdentifier>{048c0ce0-5a52-4b29-b1f0-38d3e31af0b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aida64ShareMemory">
+      <UniqueIdentifier>{58f0e853-ddab-4460-b846-55e85156f89c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataManager">
+      <UniqueIdentifier>{826aa193-a158-486b-b8ba-1eeffbf3070d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{84fae65a-6201-41ef-b744-869a658fd0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{1f2cb7c9-3d72-492c-bf86-7d44ccb20b0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对话框">
+      <UniqueIdentifier>{26080f95-7212-4a20-ba29-0c74ef361690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{444104ee-a525-4592-a459-e3dd4d532bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{70e3707d-fe8a-458c-80d4-47a93029e2e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Aida64ShareMemory.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
